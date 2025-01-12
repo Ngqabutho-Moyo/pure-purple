@@ -1,5 +1,5 @@
 <script setup></script>
 
-<template></template>
+<template><p>Solar Power Services</p></template>
 
 <style scoped></style>

@@ -8,7 +8,7 @@ import HomeView from '@/views/HomeView.vue'
 // import { name } from '@vue/eslint-config-prettier/skip-formatting'
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
