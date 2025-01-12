@@ -14,32 +14,30 @@ import Card from '@/components/Card.vue';
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Overview</h1>
-            <p>Pure Purple's solar power services are designed to help homeowners and businesses harness the power of solar energy to reduce their reliance on traditional energy sources. The company offers a range of services, including solar panel installation, system design and engineering, and ongoing maintenance and repair.
-Pure Purple's team of experienced professionals works closely with clients to determine the best solar power solution for their specific needs and budget. They conduct site assessments to determine the feasibility of solar power and provide detailed recommendations for system design and installation.
-The company's solar panel installation services include the installation of high-quality solar panels, inverters, and mounting systems. They also provide system monitoring and maintenance services to ensure that solar power systems are operating at peak efficiency.
-In addition to installation and maintenance services, Pure Purple also offers energy auditing and consulting services to help clients reduce their energy consumption and optimize their solar power systems. The company's goal is to provide clients with a comprehensive solar power solution that meets their energy needs and helps them save money on their energy bills.
-Pure Purple's solar power services are available to homeowners and businesses in a variety of locations, and the company is committed to providing exceptional customer service and support throughout the entire process, from initial consultation to ongoing maintenance and repair.
+            <p>Pure Purple's solar power training courses are designed to equip students with the knowledge and skills needed to design, install, and maintain solar power systems. The courses cover a range of topics, including the fundamentals of solar energy, solar panel installation, system design, and safety protocols.
+Students learn about the different types of solar power systems, including grid-tied and off-grid systems, and how to determine the best system for a particular location or application. They also gain hands-on experience with solar panel installation, wiring, and testing, as well as system monitoring and maintenance.
+The courses are taught by experienced instructors who have industry expertise and a passion for teaching. They provide personalized attention and guidance, helping students to overcome challenges and achieve their goals.
             </p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Pricing</h1>
             <div class="grid grid-cols-3 gap-3">
               <Card>
-                <h1 class="text-xl font-bold">Basic</h1>
-                <p>The Basic Package is designed for homeowners and small businesses with basic solar power needs. This package typically includes a standard solar panel installation, a basic monitoring system, and a limited warranty.</p>
+                <h1 class="text-xl font-bold">Beginner</h1>
+                <p>Solar energy fundamentals, solar panel basics, system components, safety protocols, and introduction to solar power systems.
+</p>
                 <p>$0.00</p>
               </Card>
               <Card>
-                <h1 class="text-xl font-bold">Premium</h1>
-                <p>
-The Premium Package is designed for homeowners and businesses with more complex solar power needs. This package typically includes a high-efficiency solar panel installation, an advanced monitoring system, and an extended warranty.
+                <h1 class="text-xl font-bold">Intermediate</h1>
+                <p>Web development, mobile app development, cloud computing, database management, and software testing.
                 </p>
                 <p>$0.00</p>
               </Card>
               <Card>
-                <h1 class="text-xl font-bold">Custom</h1>
-                <p>The Custom Package is designed for large businesses, commercial properties, and government institutions with unique solar power needs. This package typically includes a customized solar panel installation, a sophisticated monitoring system, and a comprehensive warranty.
-                </p>
+                <h1 class="text-xl font-bold">Advanced</h1>
+                <p>Artificial intelligence, machine learning, cybersecurity, advanced software design patterns, and
+                  specialized technologies like blockchain and the Internet of Things (IoT).</p>
                 <p>$0.00</p>
               </Card>
             </div>
