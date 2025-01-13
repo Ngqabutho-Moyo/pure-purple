@@ -10,13 +10,13 @@ import Card from '@/components/Card.vue';
       <div class="grid grid-cols-2 md:grid-cols-70/30 w-full gap-6">
         <div>
           <div class="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
-            <h1 class="text-3xl font-bold mb-4">Coding</h1>
+            <h1 class="text-3xl font-bold mb-4">Data Analytics</h1>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Overview</h1>
-            <p>The Web Development course teaches students how to build dynamic web applications using HTML, CSS, JavaScript, and popular frameworks like React and Angular. The Programming Fundamentals course covers the basics of programming, including data types, variables, loops, and control structures, using languages like Python, Java, and C++. The Data Science and Machine Learning course explores the world of data science and machine learning, covering topics like data analysis, visualization, and modeling using libraries like Pandas, NumPy, and scikit-learn.
-The Mobile App Development course teaches students how to build native mobile apps for Android and iOS using frameworks like React Native and Flutter. The Cybersecurity course covers the latest cybersecurity threats and teaches students how to protect their applications and data using best practices and cutting-edge tools.
-
+            <p>Pure Purple's data analytics courses are designed to equip students with the skills and knowledge needed to extract insights and meaning from data. The courses cover a range of topics, including data visualization, machine learning, statistical modeling, and data mining.
+Students learn how to work with various data analytics tools and technologies, such as Excel, SQL, Tableau, Power BI, Python, R, and TensorFlow. They also gain hands-on experience with real-world datasets and projects, allowing them to apply theoretical concepts to practical problems.
+The courses are taught by experienced instructors who have industry expertise and a passion for teaching. They provide personalized attention and guidance, helping students to overcome challenges and achieve their goals
             </p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
@@ -24,17 +24,17 @@ The Mobile App Development course teaches students how to build native mobile ap
             <div class="grid grid-cols-3 gap-3">
               <Card>
                 <h1 class="text-xl font-bold">Beginner</h1>
-                <p>Perfect for those new to coding, covering the basics of programming and web development</p>
+                <p>Foundations of data analysis, data visualization, Excel, SQL, statistics, and data cleaning</p>
                 <p>$0.00</p>
               </Card>
               <Card>
                 <h1 class="text-xl font-bold">Intermediate</h1>
-                <p>Designed for those with some coding experience, exploring more advanced topics like data structures, algorithms, and machine learning</p>
+                <p>Data modeling, machine learning, Python, R, data storytelling, and big data</p>
                 <p>$0.00</p>
               </Card>
               <Card>
                 <h1 class="text-xl font-bold">Advanced</h1>
-                <p>Ideal for experienced coders, diving deeper into specialized topics like cloud computing, DevOps, and cybersecurity</p>
+                <p>Deep learning, natural language processing, advanced machine learning, big data analytics, and data governance.</p>
                 <p>$0.00</p>
               </Card>
             </div>

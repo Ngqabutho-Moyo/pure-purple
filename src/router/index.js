@@ -1,9 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import CodingView from '@/views/services/CodingView.vue'
+import CodingCourseView from '@/views/courses/CodingCourseView.vue'
+import DataAnalyticsCourseView from '@/views/courses/DataAnalyticsCourseView.vue'
+import SoftwareDevelopmentCourseView from '@/views/courses/SoftwareDevelopmentCourseView.vue'
+import SolarPowerTrainingView from '@/views/courses/SolarPowerTrainingCourseView.vue'
 import DataAnalyticsView from '@/views/services/DataAnalyticsView.vue'
 import SoftwareDevelopmentView from '@/views/services/SoftwareDevelopmentView.vue'
 import SolarPowerServicesView from '@/views/services/SolarPowerServicesView.vue'
-import SolarPowerTrainingView from '@/views/services/SolarPowerTrainingView.vue'
 import HomeView from '@/views/HomeView.vue'
 // import { name } from '@vue/eslint-config-prettier/skip-formatting'
 
@@ -16,30 +18,41 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/coding',
-      name: 'coding',
-      component: CodingView,
+      path: '/courses/coding',
+      name: 'coding-course',
+      component: CodingCourseView,
     },
     {
-      path: '/data-analytics',
-      name: 'data-analytics',
-      component: DataAnalyticsView,
+      path: '/courses/data-analytics',
+      name: 'data-analytics-course',
+      component: DataAnalyticsCourseView,
     },
     {
-      path: '/software-development',
-      name: 'software-development',
-      component: SoftwareDevelopmentView,
+      path: '/courses/software-development',
+      name: 'software-development-course',
+      component: SoftwareDevelopmentCourseView,
     },
     {
-      path: '/solar-power-services',
-      name: 'solar-power-services',
-      component: SolarPowerServicesView,
-    },
-    {
-      path: '/solar-power-training',
-      name: 'solar-power-training',
+      path: '/courses/solar-power',
+      name: 'solar-power-course',
       component: SolarPowerTrainingView,
     },
+    {
+      path: '/services/data-analytics',
+      name: 'data-analytics-service',
+      component: DataAnalyticsView
+    },
+    {
+      path: '/services/software-development',
+      name: 'software-development-service',
+      component: SoftwareDevelopmentView
+    },
+    {
+      path: '/services/solar-power',
+      name: 'solar-power-service',
+      component: SolarPowerServicesView
+    }
+
   ],
 })
 

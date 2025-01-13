@@ -1,6 +1,7 @@
 <script setup>
 import Card from '@/components/Card.vue';
 import { RouterLink } from 'vue-router';
+
 </script>
 
 <template>
@@ -11,21 +12,22 @@ import { RouterLink } from 'vue-router';
     </div>
     <div class="mb-10">
       <h1 class="text-3xl mb-3 text-purple-600 font-bold"><strong>About</strong></h1>
-      <p class="text-lg">Pure Purple is a pioneering company that converges technology, data, and sustainability to
+      <p class="text-lg">Purepurple Technologies (Pvt) Ltd. is a pioneering company that converges technology, data, and
+        sustainability to
         drive growth and positive impact. Our diverse portfolio includes expert-led courses, customized services, and
         solar power installation and maintenance solutions. Join us in our mission to empower individuals, businesses,
         and communities to thrive in a rapidly evolving world.</p>
     </div>
     <div class="mb-10">
-      <h1 class="text-3xl mb-3 text-purple-600 font-bold"><strong>Our Services</strong></h1>
-      <div class="grid grid-cols-3 gap-3 mb-5">
+      <h1 class="text-3xl mb-3 text-purple-600 font-bold"><strong>Our Courses</strong></h1>
+      <div class="grid grid-cols-2 gap-2 mb-5">
         <Card>
           <h2 class="text-xl font-bold">Coding</h2>
           <p>Learn in-demand coding skills with our expert-led courses and boost your career prospects in software
             development.
           </p>
           <div class="mt-5">
-            <RouterLink to="coding"><button
+            <RouterLink to="courses/coding"><button
                 class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
                 More</button>
             </RouterLink>
@@ -37,7 +39,20 @@ import { RouterLink } from 'vue-router';
             courses.
           </p>
           <div class="mt-5">
-            <RouterLink to="data-analytics"><button
+            <RouterLink to="courses/data-analytics"><button
+                class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
+                More</button>
+            </RouterLink>
+          </div>
+        </Card>
+      </div>
+      <div class="grid grid-cols-2 gap-2">
+        <Card>
+          <h2 class="text-xl font-bold">Solar Power Training</h2>
+          <p>Learn the skills to design, install, and maintain solar power systems with our expert-led training courses.
+          </p>
+          <div class="mt-5">
+            <RouterLink to="courses/solar-power"><button
                 class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
                 More</button>
             </RouterLink>
@@ -49,20 +64,34 @@ import { RouterLink } from 'vue-router';
             growth with our expert-led software development courses.
           </p>
           <div class="mt-5">
-            <RouterLink to="software-development"><button
+            <RouterLink to="courses/software-development"><button
                 class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
                 More</button>
             </RouterLink>
           </div>
         </Card>
       </div>
+    </div>
+    <div class="mb-10">
+      <h1 class="text-3xl mb-3 text-purple-600 font-bold"><strong>Our Services</strong></h1>
       <div class="grid grid-cols-3 gap-3">
         <Card>
-          <h2 class="text-xl font-bold">Solar Power Training</h2>
-          <p>Learn the skills to design, install, and maintain solar power systems with our expert-led training courses.
+          <h2 class="text-xl font-bold">Data Analytics</h2>
+          <p>Transform Your business with Purepurple's Data Analytics as a Service.
           </p>
-          <div class="mt-5">
-            <RouterLink to="solar-power-training"><button
+          <div class="grid grid-cols-3 gap-3 mt-5">
+            <RouterLink to="services/data-analytics"><button
+                class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
+                More</button>
+            </RouterLink>
+          </div>
+        </Card>
+        <Card>
+          <h2 class="text-xl font-bold">Software Development</h2>
+          <p>Transform Your business with Purepurple's Software as a Service.
+          </p>
+          <div class="grid grid-cols-3 gap-3 mt-5">
+            <RouterLink to="services/software-development"><button
                 class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
                 More</button>
             </RouterLink>
@@ -74,7 +103,7 @@ import { RouterLink } from 'vue-router';
             certified technicians.
           </p>
           <div class="mt-5">
-            <RouterLink to="solar-power-services"><button
+            <RouterLink to="services/solar-power"><button
                 class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
                 More</button>
             </RouterLink>
@@ -92,8 +121,7 @@ import { RouterLink } from 'vue-router';
               <!-- <h2 class="text-xl font-bold">Address</h2> -->
             </div>
             <div>
-              <p>14 St Gorge House</p>
-              <p>285 Hebert Chitepo Ave.</p>
+              <p>194 Baines Avenue</p>
               <p>Harare</p>
             </div>
           </div>
@@ -106,7 +134,7 @@ import { RouterLink } from 'vue-router';
             </div>
             <div>
               <p>+263 71 288 4283</p>
-              <p>+263 77 217 9106</p>
+              <p>+263 77 145 4784</p>
             </div>
           </div>
         </Card>
@@ -117,7 +145,7 @@ import { RouterLink } from 'vue-router';
               <!-- <h2 class="text-xl font-bold">Email</h2> -->
             </div>
             <div>
-              <p>purepurple123@gmail.com</p>
+              <p>purepurple312@gmail.com</p>
             </div>
           </div>
         </Card>

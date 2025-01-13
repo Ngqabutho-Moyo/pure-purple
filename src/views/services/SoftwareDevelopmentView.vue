@@ -14,38 +14,60 @@ import Card from '@/components/Card.vue';
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Overview</h1>
-            <p>Pure Purple's software development courses are designed to equip students with the skills and knowledge
-              needed to design, develop, and deploy software applications. The courses cover a range of programming
-              languages, frameworks, and technologies, including Java, Python, JavaScript, React, Angular, and more.
-              The courses are structured to take students from the basics of programming to advanced software
-              development concepts. Students learn about data structures, algorithms, object-oriented programming, and
-              software design patterns. They also gain hands-on experience with industry-standard tools and
-              technologies, such as Git, Jenkins, and Docker.
-              Pure Purple's software development courses are taught by experienced instructors who have industry
-              expertise and a passion for teaching. They provide personalized attention and guidance, helping students
-              to overcome challenges and achieve their goals.
+            <p>In today's fast-paced digital landscape, custom software solutions can be a game-changer for businesses
+              looking to stay ahead of the curve. At Pure Purple, we offer software development as a service, designed
+              to help corporate and individual clients achieve their unique goals and objectives.
+              Our team of expert software developers will work closely with you to understand your business needs and
+              challenges. We'll then design, develop, and deploy custom software solutions that meet your specific
+              requirements. From mobile and web applications to enterprise software and systems integration, we have the
+              expertise and experience to deliver high-quality solutions that drive real results.
+              With Pure Purple's software development services, you'll benefit from a tailored approach that addresses
+              your unique business needs. We'll help you improve operational efficiency, enhance customer experience,
+              and gain a competitive edge in your market. Our developers are proficient in a range of programming
+              languages and technologies, ensuring that we can deliver solutions that integrate seamlessly with your
+              existing infrastructure.
             </p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1 class="text-2xl font-bold">Pricing</h1>
-            <div class="grid grid-cols-3 gap-3">
+            <h1 class="text-2xl font-bold">Packages</h1>
+            <div class="grid grid-cols-2 gap-2 p-3">
               <Card>
-                <h1 class="text-xl font-bold">Beginner</h1>
-                <p>Foundations of programming, data structures, algorithms, object-oriented programming, and basic
-                  software development concepts</p>
-                <p>$0.00</p>
+                <h1 class="text-xl font-bold">Starter</h1>
+                <ul>
+                  <li>&#8226;Basic software development services</li>
+                  <li>&#8226;Designing, developing, and deploying small-scale software applications</li>
+                  <!-- <li>&#8226;Monthly progress meetings</li> -->
+                </ul>
+                <!-- <p>$0.00</p> -->
               </Card>
               <Card>
-                <h1 class="text-xl font-bold">Intermediate</h1>
-                <p>Web development, mobile app development, cloud computing, database management, and software testing.
-                </p>
-                <p>$0.00</p>
+                <h1 class="text-xl font-bold">Growth</h1>
+                <ul>
+                  <li>&#8226;Advanced software development services</li>
+                  <li>&#8226;Custom software development</li>
+                  <li>&#8226;System integration and testing</li>
+                </ul>
+                <!-- <p>$0.00</p> -->
+              </Card>
+            </div>
+            <div class="grid grid-cols-2 gap-2 p-3">
+              <Card>
+                <h1 class="text-xl font-bold">Enterprise</h1>
+                <ul>
+                  <li>&#8226;Comprehensive software development services</li>
+                  <li>&#8226;Enterprise software development</li>
+                  <li>&#8226;Cloud migration and DevOps</li>
+                </ul>
+                <!-- <p>$0.00</p> -->
               </Card>
               <Card>
-                <h1 class="text-xl font-bold">Advanced</h1>
-                <p>Artificial intelligence, machine learning, cybersecurity, advanced software design patterns, and
-                  specialized technologies like blockchain and the Internet of Things (IoT).</p>
-                <p>$0.00</p>
+                <h1 class="text-xl font-bold">Premium</h1>
+                <ul>
+                  <li>&#8226;Dedicated development teams</li>
+                  <li>&#8226;Priority support and customized solutions</li>
+                  <!-- <li>&#8226;Priority support and service</li> -->
+                </ul>
+                <!-- <p>$0.00</p> -->
               </Card>
             </div>
           </div>
