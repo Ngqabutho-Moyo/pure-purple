@@ -1,7 +1,6 @@
 <script setup>
-import Card from '@/components/Card.vue';
 // const _title = 'Coding';
-// const description = "Pure Purple's coding courses are designed to provide students with the skills and knowledge needed to succeed in the tech industry. The courses are divided into several categories, including Web Development, Programming Fundamentals, Data Science and Machine Learning, Mobile App Development, and Cybersecurity."
+// const description = "Purepurple's coding courses are designed to provide students with the skills and knowledge needed to succeed in the tech industry. The courses are divided into several categories, including Web Development, Programming Fundamentals, Data Science and Machine Learning, Mobile App Development, and Cybersecurity."
 </script>
 
 <template>
@@ -10,37 +9,20 @@ import Card from '@/components/Card.vue';
       <div class="grid grid-cols-2 md:grid-cols-70/30 w-full gap-6">
         <div>
           <div class="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
-            <h1 class="text-3xl font-bold mb-4">Solar Power Training</h1>
+            <h1 class="text-3xl font-bold mb-4">Server Architecture and Infrastucture Maintenance</h1>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1 class="text-2xl font-bold">Overview</h1>
-            <p>Pure Purple's solar power training courses are designed to equip students with the knowledge and skills needed to design, install, and maintain solar power systems. The courses cover a range of topics, including the fundamentals of solar energy, solar panel installation, system design, and safety protocols.
-Students learn about the different types of solar power systems, including grid-tied and off-grid systems, and how to determine the best system for a particular location or application. They also gain hands-on experience with solar panel installation, wiring, and testing, as well as system monitoring and maintenance.
-The courses are taught by experienced instructors who have industry expertise and a passion for teaching. They provide personalized attention and guidance, helping students to overcome challenges and achieve their goals.
+            <h1 class="text-2xl font-bold">Course Outline</h1>
+            <p>Purepurple's Server Architecture and Infrastucture Maintenance courses are designed to equip students with the knowledge and skills needed to install and maintain compute resources. The theoretical course covers topics concerned with data centre requirements, cooling systems, and power redundancy.
             </p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1 class="text-2xl font-bold">Pricing</h1>
-            <div class="grid grid-cols-3 gap-3">
-              <Card>
-                <h1 class="text-xl font-bold">Beginner</h1>
-                <p>Solar energy fundamentals, solar panel basics, system components, safety protocols, and introduction to solar power systems.
-</p>
-                <p>$0.00</p>
-              </Card>
-              <Card>
-                <h1 class="text-xl font-bold">Intermediate</h1>
-                <p>Web development, mobile app development, cloud computing, database management, and software testing.
-                </p>
-                <p>$0.00</p>
-              </Card>
-              <Card>
-                <h1 class="text-xl font-bold">Advanced</h1>
-                <p>Artificial intelligence, machine learning, cybersecurity, advanced software design patterns, and
-                  specialized technologies like blockchain and the Internet of Things (IoT).</p>
-                <p>$0.00</p>
-              </Card>
+              <h1 class="text-2xl font-bold">Duration</h1>
+              <p>5 days</p>
             </div>
+          <div class="bg-white p-6 rounded-lg shadow-md mt-6">
+            <h1 class="text-2xl font-bold">Pricing</h1>
+            <p>$0.00</p>
           </div>
         </div>
       </div>

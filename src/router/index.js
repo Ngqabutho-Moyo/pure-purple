@@ -3,6 +3,7 @@ import CodingCourseView from '@/views/courses/CodingCourseView.vue'
 import DataAnalyticsCourseView from '@/views/courses/DataAnalyticsCourseView.vue'
 import SoftwareDevelopmentCourseView from '@/views/courses/SoftwareDevelopmentCourseView.vue'
 import SolarPowerTrainingView from '@/views/courses/SolarPowerTrainingCourseView.vue'
+import NetworkingCourseView from '@/views/courses/NetworkingCourseView.vue'
 import DataAnalyticsView from '@/views/services/DataAnalyticsView.vue'
 import SoftwareDevelopmentView from '@/views/services/SoftwareDevelopmentView.vue'
 import SolarPowerServicesView from '@/views/services/SolarPowerServicesView.vue'
@@ -31,6 +32,11 @@ const router = createRouter({
       path: '/courses/software-development',
       name: 'software-development-course',
       component: SoftwareDevelopmentCourseView,
+    },
+    {
+      path: '/courses/networking',
+      name: 'neworking-course',
+      component: NetworkingCourseView,
     },
     {
       path: '/courses/solar-power',

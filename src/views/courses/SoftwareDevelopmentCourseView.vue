@@ -1,7 +1,7 @@
 <script setup>
 import Card from '@/components/Card.vue';
 // const _title = 'Coding';
-// const description = "Pure Purple's coding courses are designed to provide students with the skills and knowledge needed to succeed in the tech industry. The courses are divided into several categories, including Web Development, Programming Fundamentals, Data Science and Machine Learning, Mobile App Development, and Cybersecurity."
+// const description = "Purepurple's coding courses are designed to provide students with the skills and knowledge needed to succeed in the tech industry. The courses are divided into several categories, including Web Development, Programming Fundamentals, Data Science and Machine Learning, Mobile App Development, and Cybersecurity."
 </script>
 
 <template>
@@ -14,18 +14,22 @@ import Card from '@/components/Card.vue';
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Overview</h1>
-            <p>Pure Purple's software development courses are designed to equip students with the skills and knowledge
+            <p>Purepurple's software development courses are designed to equip students with the skills and knowledge
               needed to design, develop, and deploy software applications. The courses cover a range of programming
               languages, frameworks, and technologies, including Java, Python, JavaScript, React, Angular, and more.
               The courses are structured to take students from the basics of programming to advanced software
               development concepts. Students learn about data structures, algorithms, object-oriented programming, and
               software design patterns. They also gain hands-on experience with industry-standard tools and
               technologies, such as Git, Jenkins, and Docker.
-              Pure Purple's software development courses are taught by experienced instructors who have industry
+              Purepurple's software development courses are taught by experienced instructors who have industry
               expertise and a passion for teaching. They provide personalized attention and guidance, helping students
               to overcome challenges and achieve their goals.
             </p>
           </div>
+          <div class="bg-white p-6 rounded-lg shadow-md mt-6">
+              <h1 class="text-2xl font-bold">Duration</h1>
+              <p>5 days</p>
+            </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Pricing</h1>
             <div class="grid grid-cols-3 gap-3">

@@ -1,7 +1,7 @@
 <script setup>
 import Card from '@/components/Card.vue';
 import { RouterLink } from 'vue-router';
-
+import TrainingCalendarView from './TrainingCalendarView.vue';
 </script>
 
 <template>
@@ -22,6 +22,55 @@ import { RouterLink } from 'vue-router';
       <h1 class="text-3xl mb-3 text-purple-600 font-bold"><strong>Our Courses</strong></h1>
       <div class="grid grid-cols-2 gap-2 mb-5">
         <Card>
+          <h2 class="text-xl font-bold">Back end Development</h2>
+          <p>Learn in-demand coding skills with our expert-led courses and boost your career prospects in backend and API
+            development.
+          </p>
+          <div class="mt-5">
+            <RouterLink to="courses/coding"><button
+                class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
+                More</button>
+            </RouterLink>
+          </div>
+        </Card>
+        <Card>
+          <h2 class="text-xl font-bold">Data Science</h2>
+          <p>Pure Purple's data science training courses are designed to provide comprehensive training in data science, covering topics from basics to advanced levels.            .
+          </p>
+          <div class="mt-5">
+            <RouterLink to="courses/data-analytics"><button
+                class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
+                More</button>
+            </RouterLink>
+          </div>
+        </Card>
+      </div>
+      <div class="grid grid-cols-2 gap-2 mb-5">
+        <Card>
+          <h2 class="text-xl font-bold">Computer Networking</h2>
+          <p>Get connected, get ahead: Master computer networking fundamentals with Purepurple.
+          </p>
+          <div class="mt-5">
+            <RouterLink to="courses/networking"><button
+                class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
+                More</button>
+            </RouterLink>
+          </div>
+        </Card>
+        <Card>
+          <h2 class="text-xl font-bold">Server Architecture and Infrastucture Maintenance</h2>
+          <p>Learn the skills to install, deploy and maintain data centre infrastructure.
+          </p>
+          <div class="mt-5">
+            <RouterLink to="courses/solar-power"><button
+                class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
+                More</button>
+            </RouterLink>
+          </div>
+        </Card>
+      </div>
+      <!-- <div class="grid grid-cols-3 gap-3 mb-5">
+        <Card>
           <h2 class="text-xl font-bold">Coding</h2>
           <p>Learn in-demand coding skills with our expert-led courses and boost your career prospects in software
             development.
@@ -34,9 +83,8 @@ import { RouterLink } from 'vue-router';
           </div>
         </Card>
         <Card>
-          <h2 class="text-xl font-bold">Data Analytics</h2>
-          <p>Learn the skills to extract insights from data and drive business growth with our expert-led data analytics
-            courses.
+          <h2 class="text-xl font-bold">Data Science</h2>
+          <p>Pure Purple's data science training courses are designed to provide comprehensive training in data science, covering topics from basics to advanced levels.            .
           </p>
           <div class="mt-5">
             <RouterLink to="courses/data-analytics"><button
@@ -45,8 +93,6 @@ import { RouterLink } from 'vue-router';
             </RouterLink>
           </div>
         </Card>
-      </div>
-      <div class="grid grid-cols-2 gap-2">
         <Card>
           <h2 class="text-xl font-bold">Solar Power Training</h2>
           <p>Learn the skills to design, install, and maintain solar power systems with our expert-led training courses.
@@ -58,19 +104,7 @@ import { RouterLink } from 'vue-router';
             </RouterLink>
           </div>
         </Card>
-        <Card>
-          <h2 class="text-xl font-bold">Software Development</h2>
-          <p>Learn the skills to design, develop, and deploy software solutions that drive innovation and business
-            growth with our expert-led software development courses.
-          </p>
-          <div class="mt-5">
-            <RouterLink to="courses/software-development"><button
-                class=" inline-block bg-purple-300 text-white rounded-lg px-4 py-2 hover:bg-purple-600">Read
-                More</button>
-            </RouterLink>
-          </div>
-        </Card>
-      </div>
+      </div> -->
     </div>
     <div class="mb-10">
       <h1 class="text-3xl mb-3 text-purple-600 font-bold"><strong>Our Services</strong></h1>
@@ -98,9 +132,8 @@ import { RouterLink } from 'vue-router';
           </div>
         </Card>
         <Card>
-          <h2 class="text-xl font-bold">Solar Power Services</h2>
-          <p>Get professional solar power installation, repair, and maintenance services from our experienced and
-            certified technicians.
+          <h2 class="text-xl font-bold">Web Development</h2>
+          <p>For indiviual and enterprise web applications for sole traers and large organizations.
           </p>
           <div class="mt-5">
             <RouterLink to="services/solar-power"><button
@@ -109,6 +142,12 @@ import { RouterLink } from 'vue-router';
             </RouterLink>
           </div>
         </Card>
+      </div>
+    </div>
+    <div class="mb-10">
+      <h1 class="text-3xl mb-3 text-purple-600 font-bold"><strong>Training Calendar</strong></h1>
+      <div>
+        <TrainingCalendarView></TrainingCalendarView>
       </div>
     </div>
     <div class="mb-10">

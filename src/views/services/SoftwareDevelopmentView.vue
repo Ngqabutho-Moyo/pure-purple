@@ -1,7 +1,7 @@
 <script setup>
 import Card from '@/components/Card.vue';
 // const _title = 'Coding';
-// const description = "Pure Purple's coding courses are designed to provide students with the skills and knowledge needed to succeed in the tech industry. The courses are divided into several categories, including Web Development, Programming Fundamentals, Data Science and Machine Learning, Mobile App Development, and Cybersecurity."
+// const description = "Purepurple's coding courses are designed to provide students with the skills and knowledge needed to succeed in the tech industry. The courses are divided into several categories, including Web Development, Programming Fundamentals, Data Science and Machine Learning, Mobile App Development, and Cybersecurity."
 </script>
 
 <template>
@@ -15,13 +15,13 @@ import Card from '@/components/Card.vue';
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Overview</h1>
             <p>In today's fast-paced digital landscape, custom software solutions can be a game-changer for businesses
-              looking to stay ahead of the curve. At Pure Purple, we offer software development as a service, designed
+              looking to stay ahead of the curve. At Purepurple, we offer software development as a service, designed
               to help corporate and individual clients achieve their unique goals and objectives.
               Our team of expert software developers will work closely with you to understand your business needs and
               challenges. We'll then design, develop, and deploy custom software solutions that meet your specific
               requirements. From mobile and web applications to enterprise software and systems integration, we have the
               expertise and experience to deliver high-quality solutions that drive real results.
-              With Pure Purple's software development services, you'll benefit from a tailored approach that addresses
+              With Purepurple's software development services, you'll benefit from a tailored approach that addresses
               your unique business needs. We'll help you improve operational efficiency, enhance customer experience,
               and gain a competitive edge in your market. Our developers are proficient in a range of programming
               languages and technologies, ensuring that we can deliver solutions that integrate seamlessly with your

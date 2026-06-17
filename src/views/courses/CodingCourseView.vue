@@ -25,8 +25,11 @@ import Card from '@/components/Card.vue';
                 using frameworks like React Native and Flutter. The Cybersecurity course covers the latest cybersecurity
                 threats and teaches students how to protect their applications and data using best practices and
                 cutting-edge tools.
-
               </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md mt-6">
+              <h1 class="text-2xl font-bold">Duration</h1>
+              <p>5 days</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md mt-6">
               <h1 class="text-2xl font-bold">Content</h1>
@@ -44,8 +47,8 @@ import Card from '@/components/Card.vue';
                 </Card>
                 <Card>
                   <h1 class="text-xl font-bold">Advanced</h1>
-                  <p>Ideal for experienced coders, diving deeper into specialized topics like cloud computing, DevOps,
-                    and cybersecurity</p>
+                  <p>Ideal for experienced coders, diving deeper into specialized topics like cloud computing and
+                    cybersecurity</p>
                   <p>$0.00</p>
                 </Card>
               </div>
@@ -55,9 +58,6 @@ import Card from '@/components/Card.vue';
       </div>
     </div>
   </section>
-  <aside>
-    <p>Aside</p>
-  </aside>
 </template>
 
 <style scoped></style>

@@ -10,13 +10,13 @@ import Card from '@/components/Card.vue';
       <div class="grid grid-cols-2 md:grid-cols-70/30 w-full gap-6">
         <div>
           <div class="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
-            <h1 class="text-3xl font-bold mb-4">Data Science</h1>
+            <h1 class="text-3xl font-bold mb-4">Networking</h1>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Overview</h1>
-            <p>This immersive program is designed to take you on a journey from the fundamentals of data science to advanced applications, covering everything from statistics and data visualization to machine learning and natural language processing. You'll learn from experienced instructors who are passionate about data science and dedicated to helping you succeed.
-Throughout the course, you'll work with real-world datasets and gain hands-on experience with popular data science tools like Python, R, and SQL. You'll also learn how to communicate complex data insights effectively to stakeholders, how to work collaboratively in a data-driven team, and how to stay up-to-date with the latest developments in the field.
-Whether you're a professional looking to enhance your skills, a career-changer seeking a new challenge, or simply a curious learner, Purepurple's data science course is the perfect choice. By the end of the program, you'll have the skills, knowledge, and confidence to succeed in this exciting and rapidly evolving field. So why wait? Enroll today and start unlocking the power of data science!</p>
+            <p>In this comprehensive course, students will gain a solid understanding of computer networking fundamentals, including network architectures, protocols, and security. Through a combination of theoretical foundations and hands-on labs, students will learn how to design, implement, and manage computer networks.
+
+</p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
               <h1 class="text-2xl font-bold">Duration</h1>
@@ -27,17 +27,17 @@ Whether you're a professional looking to enhance your skills, a career-changer s
             <div class="grid grid-cols-3 gap-3">
               <Card>
                 <h1 class="text-xl font-bold">Beginner</h1>
-                <p>Foundations of data analysis, data visualization, Excel, SQL, statistics, and data cleaning</p>
+                <p>Networking standards, network devices, operating systems, application software and network devices</p>
                 <p>$0.00</p>
               </Card>
               <Card>
                 <h1 class="text-xl font-bold">Intermediate</h1>
-                <p>Data modeling, machine learning, Python, R, data storytelling, and big data</p>
+                <p>Interconnecting network devices (local area networks, wide area networks), network cabling, network switches and virtual local area networks</p>
                 <p>$0.00</p>
               </Card>
               <Card>
                 <h1 class="text-xl font-bold">Advanced</h1>
-                <p>Deep learning, natural language processing, advanced machine learning, big data analytics, and data governance.</p>
+                <p>wide area networks, Internet protocols, routers, firewalls and network security</p>
                 <p>$0.00</p>
               </Card>
             </div>

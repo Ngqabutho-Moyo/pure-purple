@@ -1,7 +1,7 @@
 <script setup>
 import Card from '@/components/Card.vue';
 // const _title = 'Coding';
-// const description = "Pure Purple's coding courses are designed to provide students with the skills and knowledge needed to succeed in the tech industry. The courses are divided into several categories, including Web Development, Programming Fundamentals, Data Science and Machine Learning, Mobile App Development, and Cybersecurity."
+// const description = "Purepurple's coding courses are designed to provide students with the skills and knowledge needed to succeed in the tech industry. The courses are divided into several categories, including Web Development, Programming Fundamentals, Data Science and Machine Learning, Mobile App Development, and Cybersecurity."
 </script>
 
 <template>
@@ -10,13 +10,13 @@ import Card from '@/components/Card.vue';
       <div class="grid grid-cols-2 md:grid-cols-70/30 w-full gap-6">
         <div>
           <div class="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
-            <h1 class="text-3xl font-bold mb-4">Data Analytics</h1>
+            <h1 class="text-3xl font-bold mb-4">Big Data Analytics</h1>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
             <h1 class="text-2xl font-bold">Overview</h1>
-            <p>In today's data-driven world, making informed decisions is crucial for success. At Pure Purple, we understand the importance of data analytics in driving business growth and improvement. That's why we offer Data Analytics as a Service, designed to help corporate and individual clients unlock the full potential of their data.
+            <p>In today's data-driven world, making informed decisions is crucial for success. At Purepurple, we understand the importance of data analytics in driving business growth and improvement. That's why we offer Data Analytics as a Service, designed to help corporate and individual clients unlock the full potential of their data.
 Our team of expert data analysts and scientists will work closely with you to understand your business goals and challenges. We'll then collect, analyze, and interpret your data to provide actionable insights and recommendations. Whether you're looking to improve operational efficiency, enhance customer experience, or identify new business opportunities, our data analytics service can help.
-With Pure Purple's Data Analytics as a Service, you'll gain access to advanced data analytics tools and technologies, as well as expertise in machine learning, predictive analytics, and data visualization. Our service is tailored to meet the unique needs of your business, and we'll work with you to develop a customized analytics solution that drives real results.
+With Purepurple's Data Analytics as a Service, you'll gain access to advanced data analytics tools and technologies, as well as expertise in machine learning, predictive analytics, and data visualization. Our service is tailored to meet the unique needs of your business, and we'll work with you to develop a customized analytics solution that drives real results.
             </p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
