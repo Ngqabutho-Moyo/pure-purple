@@ -1,13 +1,13 @@
 <script setup>
-// import Navbar from './components/Navbar.vue';
-// import HomeView from './views/HomeView.vue';
 import { RouterView } from 'vue-router';
-// import TrainingCalendarView from './views/TrainingCalendarView.vue';
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <!-- <p>sdfrfvsvwr</p> -->
-   <!-- <TrainingCalendarView></TrainingCalendarView> -->
-  <RouterView></RouterView>
-  <!-- <HomeView></HomeView> -->
+  <Navbar />
+  <main class="pt-[72px]">
+    <RouterView />
+  </main>
+  <Footer />
 </template>
